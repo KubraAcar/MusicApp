@@ -8,12 +8,12 @@ import android.app.Activity;
 
 public class Song {
     private String name;
-    private String singerName;
+    private String singer;
     private String duration;
 
     public Song(String name, String artistname, String duration) {
         this.name = name;
-        this.singerName = artistname;
+        this.singer = artistname;
         this.duration = duration;
     }
 
@@ -25,7 +25,7 @@ public class Song {
     }
 
     public String getSingerName() {
-        return singerName;
+        return singer;
     }
 
     public String getDuration() {
@@ -37,7 +37,7 @@ public class Song {
     }
 
     public void setArtistname(String artistname) {
-        this.singerName = artistname;
+        this.singer = artistname;
     }
 
     public void setDuration(String duration) {
